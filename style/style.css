@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box; 
+}
+body {
+	font-family: 'Lobster', cursive;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #FF4500;
+	padding: 20px;
+}
+.row {
+	display: flex;
+
+}
+.box {
+	width: 100px;
+	flex-grow: 1;
+	background-color: #00BFFF;
+	margin: 10px;
+	text-align: center;
+
+}
+p {
+	text-align: left;
+	font-family: 'Lobster', cursive;
+}
+.fon {
+	 background: url(../image/priroda-osen-les-reka.jpg) no-repeat ;
+    background-size: 100%; 
+    background-attachment: fixed;
+}
